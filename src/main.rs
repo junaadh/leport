@@ -1,5 +1,5 @@
-use leptos::*;
 use leport::App;
+use leptos::*;
 
 fn main() {
     // set up logging
