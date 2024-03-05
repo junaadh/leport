@@ -7,10 +7,10 @@ import Footer from "./components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Junaadh's Portfolio",
+  title: "Moosa Junaadh",
   description: "Portfolio of junaadh a cs student",
   appleWebApp: {
-    title: "Junaadh's Portfolio",
+    title: "Moosa Junaadh",
     statusBarStyle: "black-translucent",
   },
 };
