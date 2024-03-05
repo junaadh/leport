@@ -32,7 +32,7 @@ export default function Header() {
         onMouseEnter={() => setOnHover(!onhover)}
         onMouseLeave={() => setOnHover(false)}
       >
-        <div className="leport-background transition delay-150 h-full w-full ease-in-out duration-300 flex-col justify-center items-center p-2 border border-transparent backdrop-blur rounded-3xl shadow-2xl hover:w-[338px] hover:h-[210px]">
+        <div className="leport-background transition delay-150 h-full w-full ease-in-out duration-300 flex-col justify-center items-center p-2 border border-transparent backdrop-blur rounded-3xl shadow-2xl hover:w-[338px]">
           <ul className="flex gap-1 place-content-evenly shadow-2xl">
             {nav_item_list.map((nav_item, index) => (
               <li key={index} className="flex justify-center">

@@ -45,9 +45,9 @@ export default function Theme() {
 
   return (
     <>
-      <section className="flex flex-col place-content-evenly items-center mt-3">
+      <section className="flex flex-col place-content-evenly items-center mt-3 mb-2">
         <button
-          className="flex justify-center items-center border border-transparent bg-stone-900/30 m-1 py-1 px-3 rounded-xl hover:bg-stone-900/20"
+          className="flex justify-center items-center border border-transparent bg-stone-900/30 m-1 py-1 px-10 rounded-xl hover:bg-stone-900/20"
           onClick={() => {
             localStorage.theme = "light";
             handle();
@@ -57,7 +57,7 @@ export default function Theme() {
           <h1 className="font-serif text-sm m-1">Light Mode</h1>
         </button>
         <button
-          className="flex justify-center items-center border border-transparent bg-stone-900/30 m-1 py-1 px-3 rounded-xl hover:bg-stone-900/20"
+          className="flex justify-center items-center border border-transparent bg-stone-900/30 m-1 py-1 px-10 rounded-xl hover:bg-stone-900/20"
           onClick={() => {
             localStorage.removeItem("theme");
             handle();
@@ -67,7 +67,7 @@ export default function Theme() {
           <h1 className="font-serif text-sm m-1">Auto Mode</h1>
         </button>
         <button
-          className="flex justify-center items-center border border-transparent bg-stone-900/30 m-1 py-1 px-3 rounded-xl hover:bg-stone-900/20"
+          className="flex justify-center items-center border border-transparent bg-stone-900/30 m-1 py-1 px-10 rounded-xl hover:bg-stone-900/20"
           onClick={() => {
             localStorage.theme = "dark";
             handle();
